@@ -8,7 +8,7 @@ int main()
 	int Pay = 2000000;
 	int Tax = 10;
 
-	int RealPay = Pay * (100 - Tax) / 10;
+	int RealPay = Pay * (100 - Tax) / 100;
 
 	MyMoney += RealPay;
 
